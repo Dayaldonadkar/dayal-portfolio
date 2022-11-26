@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+
+@layer components{
+    .hover{
+        @apply hover:text-indigo-200 cursor-pointer
+    }
+}
+@tailwind utilities;
+
